@@ -1,0 +1,431 @@
+{
+  "openapi": "3.0.0",
+  "servers": [
+    {
+      "description": "SwaggerHub API Auto Mocking",
+      "url": "https://virtserver.swaggerhub.com/TPIIAEW/TPIIAWE2/1.0.0"
+    }
+  ],
+  "info": {
+    "description": "Trabajo practico integrador IAEW",
+    "version": "1.0.0",
+    "title": "CarRentalCor S.A",
+    "contact": {
+      "email": "you@your-company.com"
+    },
+    "license": {
+      "name": "Apache 2.0",
+      "url": "http://www.apache.org/licenses/LICENSE-2.0.html"
+    }
+  },
+  "tags": [
+    {
+      "name": "vehiculos",
+      "description": "operaciones con vehiculos"
+    },
+    {
+      "name": "ciudades",
+      "description": "operaciones con ciudades"
+    },
+    {
+      "name": "reservas",
+      "description": "operaciones con reservas"
+    },
+    {
+      "name": "paises",
+      "description": "operaciones con paises"
+    }
+  ],
+  "paths": {
+    "/vehiculos": {
+      "get": {
+        "tags": [
+          "vehiculos"
+        ],
+        "summary": "buscar vehiculos",
+        "operationId": "buscarVehiculos",
+        "description": "By passing in the appropriate options, you can search for\navailable vehicule in the system\n",
+        "parameters": [
+          {
+            "in": "query",
+            "name": "estado",
+            "description": "estado del vehiculo",
+            "required": true,
+            "schema": {
+              "type": "string",
+              "default": "disponible"
+            }
+          },
+          {
+            "in": "query",
+            "name": "ciudad",
+            "description": "ciudad donde el proveedor ofrece servicio",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "in": "query",
+            "name": "fecha_inicio",
+            "description": "fecha inicio",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "in": "query",
+            "name": "fecha_fin",
+            "description": "fecha fin",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "resultado de la busqueda por parametro",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/Vehiculos"
+                  }
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "parametros ingresados incrorrectos"
+          }
+        }
+      }
+    },
+    "/ciudades": {
+      "get": {
+        "tags": [
+          "ciudades"
+        ],
+        "summary": "buscar ciudades",
+        "operationId": "buscarCiudades",
+        "description": "By passing in the appropriate options, you can search for\navailable cities in the system\n",
+        "parameters": [
+          {
+            "in": "query",
+            "name": "estado",
+            "description": "estado de la ciudad",
+            "required": true,
+            "schema": {
+              "type": "string",
+              "default": "disponible"
+            }
+          },
+          {
+            "in": "query",
+            "name": "pais",
+            "description": "pais al que pertenece",
+            "required": true,
+            "schema": {
+              "type": "string",
+              "default": "Argentina"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "resultado de la busqueda por parametro",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/Ciudades"
+                  }
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "parametros ingresados incrorrectos"
+          }
+        }
+      }
+    },
+    "/paises": {
+      "get": {
+        "tags": [
+          "paises"
+        ],
+        "summary": "buscar paises",
+        "operationId": "buscarPaises",
+        "description": "By passing in the appropriate options, you can search for\navailable countries in the system\n",
+        "parameters": [
+          {
+            "in": "query",
+            "name": "estado",
+            "description": "estado del país",
+            "required": true,
+            "schema": {
+              "type": "string",
+              "default": "disponible"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "resultado de la busqueda por parametro",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/Paises"
+                  }
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "parametros ingresados incrorrectos"
+          }
+        }
+      }
+    },
+    "/Reservas/{id_reserva}": {
+      "get": {
+        "summary": "Info para una reserva especifica",
+        "operationId": "mostrarReservaPorId",
+        "tags": [
+          "reservas"
+        ],
+        "parameters": [
+          {
+            "name": "id_reserva",
+            "in": "path",
+            "required": true,
+            "description": "El id de la reserva",
+            "schema": {
+              "type": "integer"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Expected response to a valid request",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Reservas"
+                }
+              }
+            }
+          }
+        }
+      },
+      "put": {
+        "tags": [
+          "reservas"
+        ],
+        "summary": "Actualiza reserva actual",
+        "operationId": "actualizarReserva",
+        "parameters": [
+          {
+            "name": "id_reserva",
+            "in": "path",
+            "required": true,
+            "description": "El id de la reserva",
+            "schema": {
+              "type": "integer"
+            }
+          },
+          {
+            "in": "query",
+            "name": "estado",
+            "description": "Reserva que será eliminada virtualmente",
+            "required": true,
+            "schema": {
+              "$ref": "#/components/schemas/Reservas"
+            }
+          }
+        ],
+        "responses": {
+          "400": {
+            "description": "Invalid state"
+          },
+          "404": {
+            "description": "Reservation not found"
+          },
+          "405": {
+            "description": "Validation exception"
+          }
+        }
+      },
+      "post": {
+        "tags": [
+          "reservas"
+        ],
+        "summary": "Crear reserva",
+        "operationId": "crearReserva",
+        "parameters": [
+          {
+            "name": "id_reserva",
+            "in": "path",
+            "description": "Id de reserva a crear",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int64"
+            }
+          },
+          {
+            "name": "fecha_inicio",
+            "in": "query",
+            "description": "Fecha inicio de reserva a crear",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "fecha_fin",
+            "in": "query",
+            "description": "Fecha fin de reserva a crear",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "estado",
+            "in": "query",
+            "description": "Estado de reserva a crear",
+            "required": true,
+            "schema": {
+              "type": "string",
+              "default": "Creado"
+            }
+          },
+          {
+            "name": "vehiculo",
+            "in": "query",
+            "description": "Vehiculo de la reserva",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "usuario",
+            "in": "query",
+            "description": "Usurio de la reserva",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "405": {
+            "description": "Invalid input"
+          }
+        }
+      }
+    }
+  },
+  "components": {
+    "schemas": {
+      "Vehiculos": {
+        "type": "object",
+        "required": [
+          "id",
+          "modelo",
+          "patente",
+          "ciudad"
+        ],
+        "properties": {
+          "id": {
+            "type": "integer",
+            "format": "int64",
+            "example": 1252648
+          },
+          "modelo": {
+            "type": "string",
+            "example": "Toyota-Priu"
+          },
+          "patente": {
+            "type": "string",
+            "example": "ab569iu"
+          },
+          "ciudad": {
+            "$ref": "#/components/schemas/Ciudades"
+          }
+        }
+      },
+      "Ciudades": {
+        "required": [
+          "nombre",
+          "pais"
+        ],
+        "properties": {
+          "nombre": {
+            "type": "string",
+            "example": "París"
+          },
+          "pais": {
+            "$ref": "#/components/schemas/Paises"
+          }
+        }
+      },
+      "Paises": {
+        "required": [
+          "nombre"
+        ],
+        "properties": {
+          "nombre": {
+            "type": "string",
+            "example": "Francia"
+          }
+        }
+      },
+      "Reservas": {
+        "required": [
+          "id_reserva",
+          "fecha_inicio",
+          "fecha_fin",
+          "estado",
+          "vehiculo",
+          "usuario"
+        ],
+        "properties": {
+          "id_reserva": {
+            "type": "integer",
+            "format": "int64",
+            "example": 1252648
+          },
+          "fecha_inicio": {
+            "type": "string",
+            "example": "4-6-2002"
+          },
+          "fecha_fin": {
+            "type": "string",
+            "example": "10-6-2002"
+          },
+          "estado": {
+            "type": "string",
+            "example": "disponible"
+          },
+          "vehiculo": {
+            "$ref": "#/components/schemas/Vehiculos"
+          },
+          "usuario": {
+            "type": "string",
+            "example": "Grupo 3"
+          }
+        }
+      }
+    }
+  }
+}
