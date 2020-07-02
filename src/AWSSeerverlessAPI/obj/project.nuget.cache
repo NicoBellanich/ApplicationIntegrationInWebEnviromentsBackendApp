@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "naOmpALlj5quTZjCDHehyppzm3IuTU+GAdDYdnppiHpkUrMISrDs057voEnI8hanFZILKWelx+pRr9maxAvkMQ==",
+  "dgSpecHash": "eYSGfAYxFCydvXMQxc5FtK83WJDpfcN4+hCY/HbPlB72swplJOd+xkBLU8oRNnnHM+5Lg7r87oooQSuwVm2dUg==",
   "success": true,
-  "projectFilePath": "c:\\Users\\nicol\\Desktop\\1-7\\Back TPIaew\\AWSSeerverlessAPI\\src\\AWSSeerverlessAPI\\AWSSeerverlessAPI.csproj",
+  "projectFilePath": "C:\\Users\\nicol\\Desktop\\1-7\\Back TPIaew\\AWSSeerverlessAPI\\src\\AWSSeerverlessAPI\\AWSSeerverlessAPI.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\nicol\\.nuget\\packages\\amazon.lambda.apigatewayevents\\2.1.0\\amazon.lambda.apigatewayevents.2.1.0.nupkg.sha512",
     "C:\\Users\\nicol\\.nuget\\packages\\amazon.lambda.applicationloadbalancerevents\\2.0.0\\amazon.lambda.applicationloadbalancerevents.2.0.0.nupkg.sha512",

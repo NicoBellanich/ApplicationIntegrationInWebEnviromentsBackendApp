@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "c:\\Users\\nicol\\Desktop\\1-7\\Back TPIaew\\AWSSeerverlessAPI\\src\\AWSSeerverlessAPI\\AWSSeerverlessAPI.csproj": {}
+    "C:\\Users\\nicol\\Desktop\\1-7\\Back TPIaew\\AWSSeerverlessAPI\\src\\AWSSeerverlessAPI\\AWSSeerverlessAPI.csproj": {}
   },
   "projects": {
-    "c:\\Users\\nicol\\Desktop\\1-7\\Back TPIaew\\AWSSeerverlessAPI\\src\\AWSSeerverlessAPI\\AWSSeerverlessAPI.csproj": {
+    "C:\\Users\\nicol\\Desktop\\1-7\\Back TPIaew\\AWSSeerverlessAPI\\src\\AWSSeerverlessAPI\\AWSSeerverlessAPI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Users\\nicol\\Desktop\\1-7\\Back TPIaew\\AWSSeerverlessAPI\\src\\AWSSeerverlessAPI\\AWSSeerverlessAPI.csproj",
+        "projectUniqueName": "C:\\Users\\nicol\\Desktop\\1-7\\Back TPIaew\\AWSSeerverlessAPI\\src\\AWSSeerverlessAPI\\AWSSeerverlessAPI.csproj",
         "projectName": "AWSSeerverlessAPI",
-        "projectPath": "c:\\Users\\nicol\\Desktop\\1-7\\Back TPIaew\\AWSSeerverlessAPI\\src\\AWSSeerverlessAPI\\AWSSeerverlessAPI.csproj",
+        "projectPath": "C:\\Users\\nicol\\Desktop\\1-7\\Back TPIaew\\AWSSeerverlessAPI\\src\\AWSSeerverlessAPI\\AWSSeerverlessAPI.csproj",
         "packagesPath": "C:\\Users\\nicol\\.nuget\\packages\\",
-        "outputPath": "c:\\Users\\nicol\\Desktop\\1-7\\Back TPIaew\\AWSSeerverlessAPI\\src\\AWSSeerverlessAPI\\obj\\",
+        "outputPath": "C:\\Users\\nicol\\Desktop\\1-7\\Back TPIaew\\AWSSeerverlessAPI\\src\\AWSSeerverlessAPI\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\nicol\\AppData\\Roaming\\NuGet\\NuGet.Config",

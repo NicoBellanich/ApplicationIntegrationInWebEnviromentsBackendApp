@@ -36,3 +36,4 @@ C:\Users\nicol\Desktop\1-7\Back TPIaew\AWSSeerverlessAPI\src\AWSSeerverlessAPI\o
 C:\Users\nicol\Desktop\1-7\Back TPIaew\AWSSeerverlessAPI\src\AWSSeerverlessAPI\obj\Debug\netcoreapp3.1\AWSSeerverlessAPI.dll
 C:\Users\nicol\Desktop\1-7\Back TPIaew\AWSSeerverlessAPI\src\AWSSeerverlessAPI\obj\Debug\netcoreapp3.1\AWSSeerverlessAPI.pdb
 C:\Users\nicol\Desktop\1-7\Back TPIaew\AWSSeerverlessAPI\src\AWSSeerverlessAPI\obj\Debug\netcoreapp3.1\AWSSeerverlessAPI.genruntimeconfig.cache
+C:\Users\nicol\Desktop\1-7\Back TPIaew\AWSSeerverlessAPI\src\AWSSeerverlessAPI\bin\Debug\netcoreapp3.1\AWSSDK.DynamoDBv2.dll
