@@ -37,3 +37,42 @@ C:\Users\nicol\Desktop\1-7\Back TPIaew\AWSSeerverlessAPI\src\AWSSeerverlessAPI\o
 C:\Users\nicol\Desktop\1-7\Back TPIaew\AWSSeerverlessAPI\src\AWSSeerverlessAPI\obj\Debug\netcoreapp3.1\AWSSeerverlessAPI.pdb
 C:\Users\nicol\Desktop\1-7\Back TPIaew\AWSSeerverlessAPI\src\AWSSeerverlessAPI\obj\Debug\netcoreapp3.1\AWSSeerverlessAPI.genruntimeconfig.cache
 C:\Users\nicol\Desktop\1-7\Back TPIaew\AWSSeerverlessAPI\src\AWSSeerverlessAPI\bin\Debug\netcoreapp3.1\AWSSDK.DynamoDBv2.dll
+C:\Users\Tomas\Desktop\Julio\IAEWPresBack\src\AWSSeerverlessAPI\bin\Debug\netcoreapp3.1\appsettings.Development.json
+C:\Users\Tomas\Desktop\Julio\IAEWPresBack\src\AWSSeerverlessAPI\bin\Debug\netcoreapp3.1\appsettings.json
+C:\Users\Tomas\Desktop\Julio\IAEWPresBack\src\AWSSeerverlessAPI\bin\Debug\netcoreapp3.1\aws-lambda-tools-defaults.json
+C:\Users\Tomas\Desktop\Julio\IAEWPresBack\src\AWSSeerverlessAPI\bin\Debug\netcoreapp3.1\swagger\v1\swagger.json
+C:\Users\Tomas\Desktop\Julio\IAEWPresBack\src\AWSSeerverlessAPI\bin\Debug\netcoreapp3.1\AWSSeerverlessAPI.exe
+C:\Users\Tomas\Desktop\Julio\IAEWPresBack\src\AWSSeerverlessAPI\bin\Debug\netcoreapp3.1\AWSSeerverlessAPI.deps.json
+C:\Users\Tomas\Desktop\Julio\IAEWPresBack\src\AWSSeerverlessAPI\bin\Debug\netcoreapp3.1\AWSSeerverlessAPI.runtimeconfig.json
+C:\Users\Tomas\Desktop\Julio\IAEWPresBack\src\AWSSeerverlessAPI\bin\Debug\netcoreapp3.1\AWSSeerverlessAPI.runtimeconfig.dev.json
+C:\Users\Tomas\Desktop\Julio\IAEWPresBack\src\AWSSeerverlessAPI\bin\Debug\netcoreapp3.1\AWSSeerverlessAPI.dll
+C:\Users\Tomas\Desktop\Julio\IAEWPresBack\src\AWSSeerverlessAPI\bin\Debug\netcoreapp3.1\AWSSeerverlessAPI.pdb
+C:\Users\Tomas\Desktop\Julio\IAEWPresBack\src\AWSSeerverlessAPI\bin\Debug\netcoreapp3.1\Amazon.Lambda.APIGatewayEvents.dll
+C:\Users\Tomas\Desktop\Julio\IAEWPresBack\src\AWSSeerverlessAPI\bin\Debug\netcoreapp3.1\Amazon.Lambda.ApplicationLoadBalancerEvents.dll
+C:\Users\Tomas\Desktop\Julio\IAEWPresBack\src\AWSSeerverlessAPI\bin\Debug\netcoreapp3.1\Amazon.Lambda.AspNetCoreServer.dll
+C:\Users\Tomas\Desktop\Julio\IAEWPresBack\src\AWSSeerverlessAPI\bin\Debug\netcoreapp3.1\Amazon.Lambda.Core.dll
+C:\Users\Tomas\Desktop\Julio\IAEWPresBack\src\AWSSeerverlessAPI\bin\Debug\netcoreapp3.1\Amazon.Lambda.Logging.AspNetCore.dll
+C:\Users\Tomas\Desktop\Julio\IAEWPresBack\src\AWSSeerverlessAPI\bin\Debug\netcoreapp3.1\Amazon.Lambda.Serialization.SystemTextJson.dll
+C:\Users\Tomas\Desktop\Julio\IAEWPresBack\src\AWSSeerverlessAPI\bin\Debug\netcoreapp3.1\AWSSDK.Core.dll
+C:\Users\Tomas\Desktop\Julio\IAEWPresBack\src\AWSSeerverlessAPI\bin\Debug\netcoreapp3.1\AWSSDK.DynamoDBv2.dll
+C:\Users\Tomas\Desktop\Julio\IAEWPresBack\src\AWSSeerverlessAPI\bin\Debug\netcoreapp3.1\AWSSDK.Extensions.NETCore.Setup.dll
+C:\Users\Tomas\Desktop\Julio\IAEWPresBack\src\AWSSeerverlessAPI\bin\Debug\netcoreapp3.1\AWSSDK.S3.dll
+C:\Users\Tomas\Desktop\Julio\IAEWPresBack\src\AWSSeerverlessAPI\bin\Debug\netcoreapp3.1\Microsoft.OpenApi.dll
+C:\Users\Tomas\Desktop\Julio\IAEWPresBack\src\AWSSeerverlessAPI\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+C:\Users\Tomas\Desktop\Julio\IAEWPresBack\src\AWSSeerverlessAPI\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\Tomas\Desktop\Julio\IAEWPresBack\src\AWSSeerverlessAPI\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\Tomas\Desktop\Julio\IAEWPresBack\src\AWSSeerverlessAPI\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\Tomas\Desktop\Julio\IAEWPresBack\src\AWSSeerverlessAPI\bin\Debug\netcoreapp3.1\Tiny.RestClient.dll
+C:\Users\Tomas\Desktop\Julio\IAEWPresBack\src\AWSSeerverlessAPI\obj\Debug\netcoreapp3.1\AWSSeerverlessAPI.csprojAssemblyReference.cache
+C:\Users\Tomas\Desktop\Julio\IAEWPresBack\src\AWSSeerverlessAPI\obj\Debug\netcoreapp3.1\AWSSeerverlessAPI.csproj.CoreCompileInputs.cache
+C:\Users\Tomas\Desktop\Julio\IAEWPresBack\src\AWSSeerverlessAPI\obj\Debug\netcoreapp3.1\AWSSeerverlessAPI.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\Tomas\Desktop\Julio\IAEWPresBack\src\AWSSeerverlessAPI\obj\Debug\netcoreapp3.1\AWSSeerverlessAPI.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Tomas\Desktop\Julio\IAEWPresBack\src\AWSSeerverlessAPI\obj\Debug\netcoreapp3.1\AWSSeerverlessAPI.AssemblyInfoInputs.cache
+C:\Users\Tomas\Desktop\Julio\IAEWPresBack\src\AWSSeerverlessAPI\obj\Debug\netcoreapp3.1\AWSSeerverlessAPI.AssemblyInfo.cs
+C:\Users\Tomas\Desktop\Julio\IAEWPresBack\src\AWSSeerverlessAPI\obj\Debug\netcoreapp3.1\AWSSeerverlessAPI.RazorTargetAssemblyInfo.cache
+C:\Users\Tomas\Desktop\Julio\IAEWPresBack\src\AWSSeerverlessAPI\obj\Debug\netcoreapp3.1\AWSSeerverlessAPI.csproj.CopyComplete
+C:\Users\Tomas\Desktop\Julio\IAEWPresBack\src\AWSSeerverlessAPI\obj\Debug\netcoreapp3.1\staticwebassets\AWSSeerverlessAPI.StaticWebAssets.Manifest.cache
+C:\Users\Tomas\Desktop\Julio\IAEWPresBack\src\AWSSeerverlessAPI\obj\Debug\netcoreapp3.1\staticwebassets\AWSSeerverlessAPI.StaticWebAssets.xml
+C:\Users\Tomas\Desktop\Julio\IAEWPresBack\src\AWSSeerverlessAPI\obj\Debug\netcoreapp3.1\AWSSeerverlessAPI.dll
+C:\Users\Tomas\Desktop\Julio\IAEWPresBack\src\AWSSeerverlessAPI\obj\Debug\netcoreapp3.1\AWSSeerverlessAPI.pdb
+C:\Users\Tomas\Desktop\Julio\IAEWPresBack\src\AWSSeerverlessAPI\obj\Debug\netcoreapp3.1\AWSSeerverlessAPI.genruntimeconfig.cache

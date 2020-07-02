@@ -36,7 +36,6 @@ namespace AWSSeerverlessAPI.Controllers
                 var paises = await client.
 
                                 GetRequest("Paises").
-                                AddQueryParameter("name", "valor").
                                 WithOAuthBearer(await AuthorizationHelper.ObtenerAccessToken()).
                                 ExecuteAsync<List<Pais>>();
 

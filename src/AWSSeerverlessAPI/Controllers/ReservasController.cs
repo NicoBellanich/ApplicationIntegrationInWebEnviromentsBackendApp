@@ -36,7 +36,6 @@ namespace AWSSeerverlessAPI.Controllers
                 var reservas = await client.
 
                                 GetRequest("Reservas").
-                                AddQueryParameter("name", "valor").
                                 WithOAuthBearer(await AuthorizationHelper.ObtenerAccessToken()).
                                 ExecuteAsync<List<Reserva>>();
 

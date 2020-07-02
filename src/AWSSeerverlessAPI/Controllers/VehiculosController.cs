@@ -34,14 +34,11 @@ namespace AWSSeerverlessAPI.Controllers
                 var client = new TinyRestClient(new HttpClient(), _config["url_api_proveedor"]);
 
                 var vehiculos = await client.
-
                                 GetRequest("Vehiculos").
-                                AddQueryParameter("name", "valor").
                                 WithOAuthBearer(await AuthorizationHelper.ObtenerAccessToken()).
                                 ExecuteAsync<List<Vehiculo>>();
 
                 return vehiculos;
-
             }
             catch (Exception ex)
             {
