@@ -1,7 +1,7 @@
 using System;
 namespace AWSSeerverlessAPI.Models
 {
-    public class VehiculoCotizacion
+    public class Cotizacion
     {
         public string Id { get; set; }
         public virtual Ciudad Ciudad { get; set; }
