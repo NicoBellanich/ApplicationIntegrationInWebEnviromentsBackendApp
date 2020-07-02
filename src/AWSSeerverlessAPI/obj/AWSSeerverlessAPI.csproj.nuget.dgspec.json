@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\nicol\\Desktop\\1-7\\Back TPIaew\\AWSSeerverlessAPI\\src\\AWSSeerverlessAPI\\AWSSeerverlessAPI.csproj": {}
+    "c:\\Users\\nicol\\Desktop\\1-7\\Back TPIaew\\AWSSeerverlessAPI\\src\\AWSSeerverlessAPI\\AWSSeerverlessAPI.csproj": {}
   },
   "projects": {
-    "C:\\Users\\nicol\\Desktop\\1-7\\Back TPIaew\\AWSSeerverlessAPI\\src\\AWSSeerverlessAPI\\AWSSeerverlessAPI.csproj": {
+    "c:\\Users\\nicol\\Desktop\\1-7\\Back TPIaew\\AWSSeerverlessAPI\\src\\AWSSeerverlessAPI\\AWSSeerverlessAPI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\nicol\\Desktop\\1-7\\Back TPIaew\\AWSSeerverlessAPI\\src\\AWSSeerverlessAPI\\AWSSeerverlessAPI.csproj",
+        "projectUniqueName": "c:\\Users\\nicol\\Desktop\\1-7\\Back TPIaew\\AWSSeerverlessAPI\\src\\AWSSeerverlessAPI\\AWSSeerverlessAPI.csproj",
         "projectName": "AWSSeerverlessAPI",
-        "projectPath": "C:\\Users\\nicol\\Desktop\\1-7\\Back TPIaew\\AWSSeerverlessAPI\\src\\AWSSeerverlessAPI\\AWSSeerverlessAPI.csproj",
+        "projectPath": "c:\\Users\\nicol\\Desktop\\1-7\\Back TPIaew\\AWSSeerverlessAPI\\src\\AWSSeerverlessAPI\\AWSSeerverlessAPI.csproj",
         "packagesPath": "C:\\Users\\nicol\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\nicol\\Desktop\\1-7\\Back TPIaew\\AWSSeerverlessAPI\\src\\AWSSeerverlessAPI\\obj\\",
+        "outputPath": "c:\\Users\\nicol\\Desktop\\1-7\\Back TPIaew\\AWSSeerverlessAPI\\src\\AWSSeerverlessAPI\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\nicol\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -38,6 +38,10 @@
       "frameworks": {
         "netcoreapp3.1": {
           "dependencies": {
+            "AWSSDK.DynamoDBv2": {
+              "target": "Package",
+              "version": "[3.3.106.27, )"
+            },
             "AWSSDK.Extensions.NETCore.Setup": {
               "target": "Package",
               "version": "[3.3.100.1, )"

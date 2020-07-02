@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "lVIk0qnXN7Yjk3UXaCSPHjTcziSOgiHljUyeVXK5iyB9e31HICuWZ5pKnG3pbghoIuHhMgCTsl2OdkWfqCPBRw==",
+  "dgSpecHash": "naOmpALlj5quTZjCDHehyppzm3IuTU+GAdDYdnppiHpkUrMISrDs057voEnI8hanFZILKWelx+pRr9maxAvkMQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\nicol\\Desktop\\1-7\\Back TPIaew\\AWSSeerverlessAPI\\src\\AWSSeerverlessAPI\\AWSSeerverlessAPI.csproj",
+  "projectFilePath": "c:\\Users\\nicol\\Desktop\\1-7\\Back TPIaew\\AWSSeerverlessAPI\\src\\AWSSeerverlessAPI\\AWSSeerverlessAPI.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\nicol\\.nuget\\packages\\amazon.lambda.apigatewayevents\\2.1.0\\amazon.lambda.apigatewayevents.2.1.0.nupkg.sha512",
     "C:\\Users\\nicol\\.nuget\\packages\\amazon.lambda.applicationloadbalancerevents\\2.0.0\\amazon.lambda.applicationloadbalancerevents.2.0.0.nupkg.sha512",
@@ -10,7 +10,8 @@
     "C:\\Users\\nicol\\.nuget\\packages\\amazon.lambda.core\\1.1.0\\amazon.lambda.core.1.1.0.nupkg.sha512",
     "C:\\Users\\nicol\\.nuget\\packages\\amazon.lambda.logging.aspnetcore\\3.0.0\\amazon.lambda.logging.aspnetcore.3.0.0.nupkg.sha512",
     "C:\\Users\\nicol\\.nuget\\packages\\amazon.lambda.serialization.systemtextjson\\2.0.1\\amazon.lambda.serialization.systemtextjson.2.0.1.nupkg.sha512",
-    "C:\\Users\\nicol\\.nuget\\packages\\awssdk.core\\3.3.106.16\\awssdk.core.3.3.106.16.nupkg.sha512",
+    "C:\\Users\\nicol\\.nuget\\packages\\awssdk.core\\3.3.107.19\\awssdk.core.3.3.107.19.nupkg.sha512",
+    "C:\\Users\\nicol\\.nuget\\packages\\awssdk.dynamodbv2\\3.3.106.27\\awssdk.dynamodbv2.3.3.106.27.nupkg.sha512",
     "C:\\Users\\nicol\\.nuget\\packages\\awssdk.extensions.netcore.setup\\3.3.100.1\\awssdk.extensions.netcore.setup.3.3.100.1.nupkg.sha512",
     "C:\\Users\\nicol\\.nuget\\packages\\awssdk.s3\\3.3.110.62\\awssdk.s3.3.3.110.62.nupkg.sha512",
     "C:\\Users\\nicol\\.nuget\\packages\\microsoft.extensions.apidescription.server\\3.0.0\\microsoft.extensions.apidescription.server.3.0.0.nupkg.sha512",

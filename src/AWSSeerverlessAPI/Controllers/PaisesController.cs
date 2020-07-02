@@ -31,16 +31,13 @@ namespace AWSSeerverlessAPI.Controllers
             {
                 _logger.LogInformation("Inicio");
 
-                var client = new TinyRestClient(new HttpClient(), _config["url_api_provedor"]);
+                var client = new TinyRestClient(new HttpClient(), _config["url_api_proveedor"]);
 
                 var paises = await client.
 
                                 GetRequest("Paises").
-
                                 AddQueryParameter("name", "valor").
-
                                 WithOAuthBearer(await AuthorizationHelper.ObtenerAccessToken()).
-
                                 ExecuteAsync<List<Pais>>();
 
                 return paises;

@@ -38,6 +38,10 @@
       "frameworks": {
         "netcoreapp3.1": {
           "dependencies": {
+            "AWSSDK.DynamoDBv2": {
+              "target": "Package",
+              "version": "[3.3.106.27, )"
+            },
             "AWSSDK.Extensions.NETCore.Setup": {
               "target": "Package",
               "version": "[3.3.100.1, )"

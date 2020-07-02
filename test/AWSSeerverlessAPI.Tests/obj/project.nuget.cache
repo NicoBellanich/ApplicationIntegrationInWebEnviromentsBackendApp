@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "ELZZhabrUjSHB2vLjD1Siy9ClRo5mW6EowLKpJiNx3Mo00myMcZOo32mogRDJAoc83RxgvCShyMhiIUffQE0+Q==",
+  "dgSpecHash": "9hd1/QyxOxXgHLG8WPCwcQjohmp4iYAfOljC0sUJ/fmrTL7Lpx9XTdlceDbf6npDbYDtH80+8ha06AV5LdAgLw==",
   "success": true,
   "projectFilePath": "c:\\Users\\nicol\\Desktop\\1-7\\Back TPIaew\\AWSSeerverlessAPI\\test\\AWSSeerverlessAPI.Tests\\AWSSeerverlessAPI.Tests.csproj",
   "expectedPackageFiles": [
@@ -11,7 +11,8 @@
     "C:\\Users\\nicol\\.nuget\\packages\\amazon.lambda.logging.aspnetcore\\3.0.0\\amazon.lambda.logging.aspnetcore.3.0.0.nupkg.sha512",
     "C:\\Users\\nicol\\.nuget\\packages\\amazon.lambda.serialization.systemtextjson\\2.0.1\\amazon.lambda.serialization.systemtextjson.2.0.1.nupkg.sha512",
     "C:\\Users\\nicol\\.nuget\\packages\\amazon.lambda.testutilities\\1.1.0\\amazon.lambda.testutilities.1.1.0.nupkg.sha512",
-    "C:\\Users\\nicol\\.nuget\\packages\\awssdk.core\\3.3.106.16\\awssdk.core.3.3.106.16.nupkg.sha512",
+    "C:\\Users\\nicol\\.nuget\\packages\\awssdk.core\\3.3.107.19\\awssdk.core.3.3.107.19.nupkg.sha512",
+    "C:\\Users\\nicol\\.nuget\\packages\\awssdk.dynamodbv2\\3.3.106.27\\awssdk.dynamodbv2.3.3.106.27.nupkg.sha512",
     "C:\\Users\\nicol\\.nuget\\packages\\awssdk.extensions.netcore.setup\\3.3.100.1\\awssdk.extensions.netcore.setup.3.3.100.1.nupkg.sha512",
     "C:\\Users\\nicol\\.nuget\\packages\\awssdk.s3\\3.3.110.62\\awssdk.s3.3.3.110.62.nupkg.sha512",
     "C:\\Users\\nicol\\.nuget\\packages\\microsoft.codecoverage\\1.0.3\\microsoft.codecoverage.1.0.3.nupkg.sha512",
