@@ -76,3 +76,4 @@ C:\Users\Tomas\Desktop\Julio\IAEWPresBack\src\AWSSeerverlessAPI\obj\Debug\netcor
 C:\Users\Tomas\Desktop\Julio\IAEWPresBack\src\AWSSeerverlessAPI\obj\Debug\netcoreapp3.1\AWSSeerverlessAPI.dll
 C:\Users\Tomas\Desktop\Julio\IAEWPresBack\src\AWSSeerverlessAPI\obj\Debug\netcoreapp3.1\AWSSeerverlessAPI.pdb
 C:\Users\Tomas\Desktop\Julio\IAEWPresBack\src\AWSSeerverlessAPI\obj\Debug\netcoreapp3.1\AWSSeerverlessAPI.genruntimeconfig.cache
+C:\Users\nicol\Desktop\1-7\Back TPIaew\AWSSeerverlessAPI\src\AWSSeerverlessAPI\bin\Debug\netcoreapp3.1\Json.Net.dll

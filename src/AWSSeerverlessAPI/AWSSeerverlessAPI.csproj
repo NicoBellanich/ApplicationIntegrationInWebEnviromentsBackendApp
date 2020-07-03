@@ -10,6 +10,7 @@
     <PackageReference Include="Amazon.Lambda.AspNetCoreServer" Version="5.1.1"/>
     <PackageReference Include="Swashbuckle.AspNetCore" Version="5.5.0"/>
     <PackageReference Include="Tiny.RestClient" Version="1.7.1"/>
-    <PackageReference Include="AWSSDK.DynamoDBv2" Version="3.3.106.27"/>
+    <PackageReference Include="AWSSDK.DynamoDBv2" Version="3.3.106.28"/>
+    <PackageReference Include="Json.Net" Version="1.0.23"/>
   </ItemGroup>
 </Project>

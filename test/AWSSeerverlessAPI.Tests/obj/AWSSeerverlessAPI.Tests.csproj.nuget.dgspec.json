@@ -40,7 +40,7 @@
           "dependencies": {
             "AWSSDK.DynamoDBv2": {
               "target": "Package",
-              "version": "[3.3.106.27, )"
+              "version": "[3.3.106.28, )"
             },
             "AWSSDK.Extensions.NETCore.Setup": {
               "target": "Package",
@@ -53,6 +53,10 @@
             "Amazon.Lambda.AspNetCoreServer": {
               "target": "Package",
               "version": "[5.1.1, )"
+            },
+            "Json.Net": {
+              "target": "Package",
+              "version": "[1.0.23, )"
             },
             "Swashbuckle.AspNetCore": {
               "target": "Package",

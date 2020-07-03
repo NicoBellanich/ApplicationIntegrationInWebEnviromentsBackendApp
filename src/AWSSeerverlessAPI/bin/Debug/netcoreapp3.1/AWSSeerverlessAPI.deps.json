@@ -24,10 +24,11 @@
     ".NETCoreApp,Version=v3.1": {
       "AWSSeerverlessAPI/1.0.0": {
         "dependencies": {
-          "AWSSDK.DynamoDBv2": "3.3.106.27",
+          "AWSSDK.DynamoDBv2": "3.3.106.28",
           "AWSSDK.Extensions.NETCore.Setup": "3.3.100.1",
           "AWSSDK.S3": "3.3.110.62",
           "Amazon.Lambda.AspNetCoreServer": "5.1.1",
+          "Json.Net": "1.0.23",
           "Swashbuckle.AspNetCore": "5.5.0",
           "Tiny.RestClient": "1.7.1",
           "Microsoft.AspNetCore.Antiforgery": "3.1.0.0",
@@ -402,25 +403,25 @@
           "lib/netcoreapp3.1/Amazon.Lambda.Serialization.SystemTextJson.dll": {}
         }
       },
-      "AWSSDK.Core/3.3.107.19": {
+      "AWSSDK.Core/3.3.107.20": {
         "runtime": {
           "lib/netstandard2.0/AWSSDK.Core.dll": {
             "assemblyVersion": "3.3.0.0",
-            "fileVersion": "3.3.107.19"
+            "fileVersion": "3.3.107.20"
           }
         },
         "compile": {
           "lib/netstandard2.0/AWSSDK.Core.dll": {}
         }
       },
-      "AWSSDK.DynamoDBv2/3.3.106.27": {
+      "AWSSDK.DynamoDBv2/3.3.106.28": {
         "dependencies": {
-          "AWSSDK.Core": "3.3.107.19"
+          "AWSSDK.Core": "3.3.107.20"
         },
         "runtime": {
           "lib/netstandard2.0/AWSSDK.DynamoDBv2.dll": {
             "assemblyVersion": "3.3.0.0",
-            "fileVersion": "3.3.106.27"
+            "fileVersion": "3.3.106.28"
           }
         },
         "compile": {
@@ -429,7 +430,7 @@
       },
       "AWSSDK.Extensions.NETCore.Setup/3.3.100.1": {
         "dependencies": {
-          "AWSSDK.Core": "3.3.107.19",
+          "AWSSDK.Core": "3.3.107.20",
           "Microsoft.Extensions.Configuration.Abstractions": "2.1.0",
           "Microsoft.Extensions.DependencyInjection.Abstractions": "2.1.0",
           "Microsoft.Extensions.Logging.Abstractions": "2.1.0"
@@ -446,7 +447,7 @@
       },
       "AWSSDK.S3/3.3.110.62": {
         "dependencies": {
-          "AWSSDK.Core": "3.3.107.19"
+          "AWSSDK.Core": "3.3.107.20"
         },
         "runtime": {
           "lib/netstandard2.0/AWSSDK.S3.dll": {
@@ -456,6 +457,17 @@
         },
         "compile": {
           "lib/netstandard2.0/AWSSDK.S3.dll": {}
+        }
+      },
+      "Json.Net/1.0.23": {
+        "runtime": {
+          "lib/netstandard2.0/Json.Net.dll": {
+            "assemblyVersion": "1.0.23.1",
+            "fileVersion": "1.0.23.1"
+          }
+        },
+        "compile": {
+          "lib/netstandard2.0/Json.Net.dll": {}
         }
       },
       "Microsoft.Extensions.ApiDescription.Server/3.0.0": {},
@@ -2323,19 +2335,19 @@
       "path": "amazon.lambda.serialization.systemtextjson/2.0.1",
       "hashPath": "amazon.lambda.serialization.systemtextjson.2.0.1.nupkg.sha512"
     },
-    "AWSSDK.Core/3.3.107.19": {
+    "AWSSDK.Core/3.3.107.20": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-Wv4XUd8AJpZqeyJQdL1zkmLwETLAx0nqOhAI3xqfHuU3rYaGc2zn4aaLJAED1T77goPR2gABttaCgvPDc67rDw==",
-      "path": "awssdk.core/3.3.107.19",
-      "hashPath": "awssdk.core.3.3.107.19.nupkg.sha512"
+      "sha512": "sha512-oLGgv5mtIddHwEEIw4Q0PnkgYLY+NIokPgMs19E7BPxdhrL3ePuaT+mublGGc0e3xuwjWSxWDjYChYYo8/CQGQ==",
+      "path": "awssdk.core/3.3.107.20",
+      "hashPath": "awssdk.core.3.3.107.20.nupkg.sha512"
     },
-    "AWSSDK.DynamoDBv2/3.3.106.27": {
+    "AWSSDK.DynamoDBv2/3.3.106.28": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-OUdbt5KnOfh6/eZ28IjxzjIWJrP9+ZkF6TrmsaORm+ov3TNXoJZVVUvK5RDRxArZ9g9CwpPQG6jK5LF7YvleSw==",
-      "path": "awssdk.dynamodbv2/3.3.106.27",
-      "hashPath": "awssdk.dynamodbv2.3.3.106.27.nupkg.sha512"
+      "sha512": "sha512-ZZFt9LDU3WPhD0e+zPfr4FVJfjH7hJkE40KzkcjVAwM2MRqu6syMka+mIdqPrE4MVN66TucCCx8uEyuo7ku6nw==",
+      "path": "awssdk.dynamodbv2/3.3.106.28",
+      "hashPath": "awssdk.dynamodbv2.3.3.106.28.nupkg.sha512"
     },
     "AWSSDK.Extensions.NETCore.Setup/3.3.100.1": {
       "type": "package",
@@ -2350,6 +2362,13 @@
       "sha512": "sha512-DLNUGQ4MUkCL4sRvNfQDnPN8zWsdfsvQMw2a2s8OHIdRl0e2uBUmC3vP+wabujgrgboTSdSu2uY+mOLqzKznVw==",
       "path": "awssdk.s3/3.3.110.62",
       "hashPath": "awssdk.s3.3.3.110.62.nupkg.sha512"
+    },
+    "Json.Net/1.0.23": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-gokTwC3OVatrIFwQBaooj6EV3+08ryFIqdfR6RP4K61x5uSschPmKHl5XppvgdD/lmfY9IYZIoBt8V5Y0SU0nQ==",
+      "path": "json.net/1.0.23",
+      "hashPath": "json.net.1.0.23.nupkg.sha512"
     },
     "Microsoft.Extensions.ApiDescription.Server/3.0.0": {
       "type": "package",

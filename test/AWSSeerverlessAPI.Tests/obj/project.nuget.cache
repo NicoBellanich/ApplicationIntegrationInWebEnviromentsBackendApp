@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "9hd1/QyxOxXgHLG8WPCwcQjohmp4iYAfOljC0sUJ/fmrTL7Lpx9XTdlceDbf6npDbYDtH80+8ha06AV5LdAgLw==",
+  "dgSpecHash": "bRp1swNWCLyqvAJAK1KhbbBAikolX6dcnBzgj41dcKJBSFHm7Nmso23vrgVlz6WdJFKxC2G1K8ClcekvjvpO+Q==",
   "success": true,
   "projectFilePath": "c:\\Users\\nicol\\Desktop\\1-7\\Back TPIaew\\AWSSeerverlessAPI\\test\\AWSSeerverlessAPI.Tests\\AWSSeerverlessAPI.Tests.csproj",
   "expectedPackageFiles": [
@@ -11,10 +11,11 @@
     "C:\\Users\\nicol\\.nuget\\packages\\amazon.lambda.logging.aspnetcore\\3.0.0\\amazon.lambda.logging.aspnetcore.3.0.0.nupkg.sha512",
     "C:\\Users\\nicol\\.nuget\\packages\\amazon.lambda.serialization.systemtextjson\\2.0.1\\amazon.lambda.serialization.systemtextjson.2.0.1.nupkg.sha512",
     "C:\\Users\\nicol\\.nuget\\packages\\amazon.lambda.testutilities\\1.1.0\\amazon.lambda.testutilities.1.1.0.nupkg.sha512",
-    "C:\\Users\\nicol\\.nuget\\packages\\awssdk.core\\3.3.107.19\\awssdk.core.3.3.107.19.nupkg.sha512",
-    "C:\\Users\\nicol\\.nuget\\packages\\awssdk.dynamodbv2\\3.3.106.27\\awssdk.dynamodbv2.3.3.106.27.nupkg.sha512",
+    "C:\\Users\\nicol\\.nuget\\packages\\awssdk.core\\3.3.107.20\\awssdk.core.3.3.107.20.nupkg.sha512",
+    "C:\\Users\\nicol\\.nuget\\packages\\awssdk.dynamodbv2\\3.3.106.28\\awssdk.dynamodbv2.3.3.106.28.nupkg.sha512",
     "C:\\Users\\nicol\\.nuget\\packages\\awssdk.extensions.netcore.setup\\3.3.100.1\\awssdk.extensions.netcore.setup.3.3.100.1.nupkg.sha512",
     "C:\\Users\\nicol\\.nuget\\packages\\awssdk.s3\\3.3.110.62\\awssdk.s3.3.3.110.62.nupkg.sha512",
+    "C:\\Users\\nicol\\.nuget\\packages\\json.net\\1.0.23\\json.net.1.0.23.nupkg.sha512",
     "C:\\Users\\nicol\\.nuget\\packages\\microsoft.codecoverage\\1.0.3\\microsoft.codecoverage.1.0.3.nupkg.sha512",
     "C:\\Users\\nicol\\.nuget\\packages\\microsoft.dotnet.platformabstractions\\1.0.3\\microsoft.dotnet.platformabstractions.1.0.3.nupkg.sha512",
     "C:\\Users\\nicol\\.nuget\\packages\\microsoft.extensions.apidescription.server\\3.0.0\\microsoft.extensions.apidescription.server.3.0.0.nupkg.sha512",
