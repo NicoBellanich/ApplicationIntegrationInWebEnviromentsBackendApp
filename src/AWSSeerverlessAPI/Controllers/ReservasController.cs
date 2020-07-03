@@ -48,5 +48,36 @@ namespace AWSSeerverlessAPI.Controllers
                 return null;
             }
         }
+
+        [HttpPost]
+        public async Task<IActionResult> Post([FromBody] ReservasResponse reservasResponse)
+        {
+            try
+            {
+                _logger.LogInformation("Post Reserva");
+
+                var client = new TinyRestClient(new HttpClient(), _config["url_api_proveedor"]);
+
+                
+                var data = new {IdCotizacion= reservasResponse.idCotizacion, reservasResponse=reservasResponse.pasajero};
+                
+                _logger.LogInformation("Empieza acá... Data:", data);
+                
+                var response = await client.
+                                PostRequest("Reservas", data).
+                                WithOAuthBearer(await AuthorizationHelper.ObtenerAccessToken()).
+                                ExecuteAsync<IActionResult>();
+
+                
+                return response;
+ 
+
+            }
+            catch (Exception ex)
+            {
+                _logger.LogError("Error: " + ex.Message);
+                return null;
+            }
+        }
     }
 }
