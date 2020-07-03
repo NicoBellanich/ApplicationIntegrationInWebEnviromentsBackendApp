@@ -53,7 +53,7 @@ namespace AWSSeerverlessAPI.Controllers
                                 GetRequest("Reservas").
                                 WithOAuthBearer(await AuthorizationHelper.ObtenerAccessToken()).
                                 ExecuteAsync<List<Reserva>>();
-                
+
                 List<ScanCondition> condiciones = new List<ScanCondition>();
                 List<ReservasData> reservas_cliente = await _context.ScanAsync<ReservasData>(condiciones).GetRemainingAsync();
 
@@ -73,6 +73,17 @@ namespace AWSSeerverlessAPI.Controllers
         {
             try
             {
+                ReservasData reservasData = new ReservasData()
+                {
+                    CodigoReserva = "123132",
+                    idCotizacion = "12331312",
+                    FechaHoraReserva = "2020-09-12T00:00:00",
+                    UsuarioReserva = "12223",
+                    TotalReserva = "8787"
+                };
+
+                await _context.SaveAsync<ReservasData>(reservasData);
+                
                 _logger.LogInformation("Post Reserva");
                 Pasajero pasajero1 = new Pasajero()
                 {
@@ -106,16 +117,7 @@ namespace AWSSeerverlessAPI.Controllers
 
 
 
-                ReservasData reservasData = new ReservasData()
-                {
-                    CodigoReserva = "123132",
-                    idCotizacion = "12331312",
-                    FechaHoraReserva = "2020-09-12T00:00:00",
-                    UsuarioReserva = "12223",
-                    TotalReserva = "8787"
-                };
 
-                await _context.SaveAsync<ReservasData>(reservasData);
                 return response;
 
             }
